@@ -56,18 +56,18 @@ app.post("/send-data-myportfolio", (req, res) => {
     to: email,
     subject: "Thank You for Contacting Muhammad Furqan",
     html: `
-      <center><img src="https://res.cloudinary.com/dzcecmml3/image/upload/v1745834808/furqan-img_t5ptqh.jp" alt="All County Construction Logo" style="width: 70px; height:70px; border-radius:50%; border:2px solid #f28301; padding:5px;"></center>
+      <center><img src="https://res.cloudinary.com/dzcecmml3/image/upload/v1745834808/furqan-img_t5ptqh.jp" alt="Muhammad Furqan Logo" style="width: 70px; height:70px; border-radius:50%; border:2px solid #f28301; padding:5px;"></center>
 
       <center><h2 style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 24px; font-weight: bold;">Hi ${name},</h2></center>
 
-      <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Thank you for reaching out to <strong>All County Construction Services Inc.</strong> We’ve received your message and our team will review it shortly.</p>
+      <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Thank you for reaching out to <strong>Muhammad Furqan</strong> I’ve received your message and our team will review it shortly.</p>
       
       <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; margin-top: 10px;"><strong>Your message:</strong></p>
       <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">"${message}"</p>
 
-      <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">We appreciate your interest and will get back to you as soon as possible. If you need immediate assistance, feel free to call us directly at +(407) 686 3865.</p>
+      <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">I appreciate your interest and will get back to you as soon as possible. If you need immediate assistance, feel free to call us directly at +(407) 686 3865.</p>
 
-      <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Best regards,<br><strong>All County Construction Services Inc.</strong><br>Winter Haven, FL<br><a href="mailto:marcus@allcountyfl.com" style="color: #149ddd;">marcus@allcountyfl.com</a></p>
+      <p style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5;">Best regards,<br><strong>Muhammad Furqan</strong><br>address, FL<br><a href="mailto:muhammadfurqanch517@gmail.com" style="color: #149ddd;">marcus@allcountyfl.com</a></p>
     `
   };
 
