@@ -27,17 +27,17 @@ app.post("/send-data-myportfolio", (req, res) => {
     port: 465,
     secure: true,
     auth: {
-      user: 'vascularbundle43@gmail.com',
-      pass: 'isolyuxlbwlpdjty',
+      user: 'muhammadfurqanch517@gmail.com',
+      pass: 'ooszsmkdjtrmcmis',
     },
   });
 
   const storeMailOptions = {
     from: email,
-    to: "marcus@allcountyfl.com",
+    to: "muhammadfurqanch517@gmail.com",
     subject: `New Inquiry from ${name}: ${subject}`,
     html: `
-      <center><img src="https://res.cloudinary.com/dqi6vk2vn/image/upload/v1745166923/g0pa3czkoka36sznjjz1.png" alt="All County Construction Logo" style="width: 170px; "></center>
+      <center><img src="https://res.cloudinary.com/dzcecmml3/image/upload/v1745834808/furqan-img_t5ptqh.jp" alt="Muhammad Furqan Logo" style="width: 70px; height:70px; border-radius:50%; border:2px solid #f28301; padding:5px; "></center>
 
       <center><h2 style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; margin-bottom: 20px;">New Contact Form Submission</h2></center>
 
@@ -52,11 +52,11 @@ app.post("/send-data-myportfolio", (req, res) => {
   };
 
   const userMailOptions = {
-    from: "marcus@allcountyfl.com",
+    from: "muhammadfurqanch517@gmail.com",
     to: email,
-    subject: "Thank You for Contacting All County Construction",
+    subject: "Thank You for Contacting Muhammad Furqan",
     html: `
-      <center><img src="https://res.cloudinary.com/dqi6vk2vn/image/upload/v1745166923/g0pa3czkoka36sznjjz1.png" alt="All County Construction Logo" style="width: 170px; "></center>
+      <center><img src="https://res.cloudinary.com/dzcecmml3/image/upload/v1745834808/furqan-img_t5ptqh.jp" alt="All County Construction Logo" style="width: 70px; height:70px; border-radius:50%; border:2px solid #f28301; padding:5px;"></center>
 
       <center><h2 style="color: #3A3A3A; font-family: Arial, sans-serif; font-size: 24px; font-weight: bold;">Hi ${name},</h2></center>
 
