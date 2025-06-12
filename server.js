@@ -136,7 +136,7 @@ app.post("/send-data-dhanani", (req, res) => {
 
       <center><h2 style="font-family: Arial, sans-serif; font-size: 24px; font-weight: bold;">Hi ${name},</h2></center>
 
-      <p style="font-size: 16px; line-height: 1.5;">Thank you for reaching out to <strong>Muhammad Furqan</strong>. I’ve received your message and our team will review it shortly.</p>
+      <p style="font-size: 16px; line-height: 1.5;">Thank you for reaching out to <strong>Dhanani Group of componies</strong>. I’ve received your message and our team will review it shortly.</p>
 
       <p style="font-size: 16px;"><strong>Your message:</strong></p>
       <p style="font-size: 16px; line-height: 1.5;">"${message}"</p>
