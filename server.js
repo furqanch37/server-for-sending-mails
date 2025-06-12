@@ -143,7 +143,7 @@ app.post("/send-data-dhanani", (req, res) => {
 
       <p style="font-size: 16px; line-height: 1.5;">I appreciate your interest and will get back to you as soon as possible. If you need immediate assistance, feel free to call us directly at +(407) 686 3865.</p>
 
-      <p style="font-size: 16px; line-height: 1.5;">Best regards,<br><strong>Muhammad Furqan</strong><br>address, FL<br><a href="mailto:muhammadfurqanch517@gmail.com" style="color: #149ddd;">muhammadfurqanch517@gmail.com</a></p>
+      <p style="font-size: 16px; line-height: 1.5;">Best regards,<br><strong>Dhanani Group of companies</strong><a href="mailto:muhammadfurqanch517@gmail.com" style="color: #149ddd;">muhammadfurqanch517@gmail.com</a></p>
     `
   };
 
