@@ -132,7 +132,7 @@ app.post("/send-data-dhanani", (req, res) => {
     to: email,
     subject: "Thank You for Contacting dhanai",
     html: `
-      <center><img src="https://res.cloudinary.com/dzcecmml3/image/upload/v1749712071/logo_hqwxdf.png" alt="Muhammad Furqan Logo" style="width: 70px; height:70px; border-radius:50%; border:2px solid #f28301; padding:5px;"></center>
+      <center><img src="https://res.cloudinary.com/dzcecmml3/image/upload/v1749712071/logo_hqwxdf.png" alt="Logo" style="width: 70px; height:70px; border-radius:50%; padding:5px;"></center>
 
       <center><h2 style="font-family: Arial, sans-serif; font-size: 24px; font-weight: bold;">Hi ${name},</h2></center>
 
